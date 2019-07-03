@@ -63,10 +63,11 @@
     "semver": "^5.5.0",
     "source-map-support": "0.x",
     "teen_process": "1.x",
-    "winston": "2.x"
+    "winston": "2.x",
+    "snyk": "^1.189.0"
   },
   "scripts": {
-    "prepublish": "gulp prepublish",
+    "prepublish": "npm run snyk-protect; gulp prepublish",
     "publish": "gulp prepublish",
     "test": "gulp once",
     "e2e-test": "gulp e2e-test",
@@ -82,7 +83,8 @@
     "clean:prod": "rm -rf node_modules && rm -rf package-lock.json && npm install --production",
     "zip": "zip -qr appium.zip .",
     "upload": "node ./build/test/scripts/bintray-upload.js",
-    "zip-and-upload": "npm run zip && npm run upload"
+    "zip-and-upload": "npm run zip && npm run upload",
+    "snyk-protect": "snyk protect"
   },
   "pre-commit": [
     "precommit-msg",
@@ -129,5 +131,6 @@
       "babel-runtime",
       "winston"
     ]
-  }
+  },
+  "snyk": true
 }
