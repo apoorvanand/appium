@@ -1,0 +1,68 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - appium-youiengine-driver > appium-android-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-xcuitest-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-windows-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-uiautomator2-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-selendroid-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-mac-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-ios-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-fake-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-espresso-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-android-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-espresso-driver > appium-android-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-selendroid-driver > appium-android-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-uiautomator2-driver > appium-android-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-youiengine-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-youiengine-driver > appium-mac-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-xcuitest-driver > appium-remote-debugger > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-espresso-driver > appium-android-driver > appium-chromedriver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-selendroid-driver > appium-android-driver > appium-chromedriver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-uiautomator2-driver > appium-android-driver > appium-chromedriver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-youiengine-driver > appium-android-driver > appium-chromedriver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-remote-debugger > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2019-07-09T21:58:59.981Z'
